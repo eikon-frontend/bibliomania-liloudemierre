@@ -1,32 +1,220 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Bibliomania</title>
-    <link rel="stylesheet" href="scripts/star-rating.min.css" />
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <!-- 🦊 Votre page ici -->
 
-    <!-- 💡 Décommentez cette balise et placez-la dans votre code afin d'afficher le système de note Javascript -->
-    <!-- 
-        <select class="star-rating" aria-label="Note utilisateur">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bibliomania</title>
+  <link rel="stylesheet" href="scripts/star-rating.min.css" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap" rel="stylesheet">
+
+
+
+</head>
+
+<body>
+  <!-- 🦊 Votre page ici -->
+
+  <div class="fleche-gauche">
+    <img src="img/fluent_ios-arrow-24-filled.png" alt="flèche qui va vers la gauche">
+
+  </div>
+
+  <h1 class="titre-haut">Du même bois</h1>
+
+  <div class="content">
+    <div class="all">
+      <div class="livre">
+        <div><img class="bloc-livre" src="img/Group 26.png" alt=""></div>
+      </div>
+
+      <div class="plus"><img src="img/Group 108.png" alt=""></div>
+      <div class="titre-bas">
+        <h1>Du même bois</h1>
+      </div>
+      <p>
+
+      <div class="note-content">
+        <div class="note">4,1 </div>
+        <div class="small-note">sur 5</div>
+      </div>
+      </p>
+
+      <p class="nombre-note">325 notes</p>
+
+
+      <h3>De Marion Fayolle</h3>
+
+
+
+      <div class="etoile">
+        <svg width="95" height="91" viewBox="0 0 95 91" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M92.6265 41.4512L73.5121 58.0354L79.2379 82.7264C79.5409 84.0171 79.4545 85.368 78.9894 86.6102C78.5243 87.8524 77.7012 88.9307 76.623 89.7104C75.5448 90.49 74.2593 90.9364 72.9273 90.9937C71.5953 91.051 70.2759 90.7167 69.134 90.0325L47.4725 76.9708L25.8575 90.0325C24.7156 90.7167 23.3962 91.051 22.0642 90.9937C20.7322 90.9364 19.4467 90.49 18.3685 89.7104C17.2903 88.9307 16.4672 87.8524 16.0021 86.6102C15.537 85.368 15.4506 84.0171 15.7536 82.7264L21.4709 58.0607L2.35231 41.4512C1.34111 40.5842 0.609899 39.4397 0.250387 38.1611C-0.109126 36.8826 -0.080942 35.527 0.331405 34.2644C0.743751 33.0017 1.5219 31.8882 2.56828 31.0634C3.61466 30.2387 4.88268 29.7394 6.21333 29.6283L31.4138 27.4583L41.2507 4.13257C41.7644 2.90863 42.6309 1.86314 43.7411 1.12777C44.8512 0.392392 46.1554 0 47.4894 0C48.8234 0 50.1276 0.392392 51.2378 1.12777C52.3479 1.86314 53.2144 2.90863 53.7281 4.13257L63.5947 27.4583L88.7867 29.6283C90.1173 29.7394 91.3853 30.2387 92.4317 31.0634C93.4781 31.8882 94.2562 33.0017 94.6686 34.2644C95.0809 35.527 95.1091 36.8826 94.7496 38.1611C94.3901 39.4397 93.6589 40.5842 92.6477 41.4512H92.6265Z"
+            fill="#C2A48F" />
+        </svg>
+        <svg width="95" height="91" viewBox="0 0 95 91" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M92.6265 41.4512L73.5121 58.0354L79.2379 82.7264C79.5409 84.0171 79.4545 85.368 78.9894 86.6102C78.5243 87.8524 77.7012 88.9307 76.623 89.7104C75.5448 90.49 74.2593 90.9364 72.9273 90.9937C71.5953 91.051 70.2759 90.7167 69.134 90.0325L47.4725 76.9708L25.8575 90.0325C24.7156 90.7167 23.3962 91.051 22.0642 90.9937C20.7322 90.9364 19.4467 90.49 18.3685 89.7104C17.2903 88.9307 16.4672 87.8524 16.0021 86.6102C15.537 85.368 15.4506 84.0171 15.7536 82.7264L21.4709 58.0607L2.35231 41.4512C1.34111 40.5842 0.609899 39.4397 0.250387 38.1611C-0.109126 36.8826 -0.080942 35.527 0.331405 34.2644C0.743751 33.0017 1.5219 31.8882 2.56828 31.0634C3.61466 30.2387 4.88268 29.7394 6.21333 29.6283L31.4138 27.4583L41.2507 4.13257C41.7644 2.90863 42.6309 1.86314 43.7411 1.12777C44.8512 0.392392 46.1554 0 47.4894 0C48.8234 0 50.1276 0.392392 51.2378 1.12777C52.3479 1.86314 53.2144 2.90863 53.7281 4.13257L63.5947 27.4583L88.7867 29.6283C90.1173 29.7394 91.3853 30.2387 92.4317 31.0634C93.4781 31.8882 94.2562 33.0017 94.6686 34.2644C95.0809 35.527 95.1091 36.8826 94.7496 38.1611C94.3901 39.4397 93.6589 40.5842 92.6477 41.4512H92.6265Z"
+            fill="#C2A48F" />
+        </svg>
+
+        <svg width="95" height="91" viewBox="0 0 95 91" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M92.6265 41.4512L73.5121 58.0354L79.2379 82.7264C79.5409 84.0171 79.4545 85.368 78.9894 86.6102C78.5243 87.8524 77.7012 88.9307 76.623 89.7104C75.5448 90.49 74.2593 90.9364 72.9273 90.9937C71.5953 91.051 70.2759 90.7167 69.134 90.0325L47.4725 76.9708L25.8575 90.0325C24.7156 90.7167 23.3962 91.051 22.0642 90.9937C20.7322 90.9364 19.4467 90.49 18.3685 89.7104C17.2903 88.9307 16.4672 87.8524 16.0021 86.6102C15.537 85.368 15.4506 84.0171 15.7536 82.7264L21.4709 58.0607L2.35231 41.4512C1.34111 40.5842 0.609899 39.4397 0.250387 38.1611C-0.109126 36.8826 -0.080942 35.527 0.331405 34.2644C0.743751 33.0017 1.5219 31.8882 2.56828 31.0634C3.61466 30.2387 4.88268 29.7394 6.21333 29.6283L31.4138 27.4583L41.2507 4.13257C41.7644 2.90863 42.6309 1.86314 43.7411 1.12777C44.8512 0.392392 46.1554 0 47.4894 0C48.8234 0 50.1276 0.392392 51.2378 1.12777C52.3479 1.86314 53.2144 2.90863 53.7281 4.13257L63.5947 27.4583L88.7867 29.6283C90.1173 29.7394 91.3853 30.2387 92.4317 31.0634C93.4781 31.8882 94.2562 33.0017 94.6686 34.2644C95.0809 35.527 95.1091 36.8826 94.7496 38.1611C94.3901 39.4397 93.6589 40.5842 92.6477 41.4512H92.6265Z"
+            fill="#C2A48F" />
+        </svg>
+
+        <svg width="95" height="91" viewBox="0 0 95 91" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M92.6265 41.4512L73.5121 58.0354L79.2379 82.7264C79.5409 84.0171 79.4545 85.368 78.9894 86.6102C78.5243 87.8524 77.7012 88.9307 76.623 89.7104C75.5448 90.49 74.2593 90.9364 72.9273 90.9937C71.5953 91.051 70.2759 90.7167 69.134 90.0325L47.4725 76.9708L25.8575 90.0325C24.7156 90.7167 23.3962 91.051 22.0642 90.9937C20.7322 90.9364 19.4467 90.49 18.3685 89.7104C17.2903 88.9307 16.4672 87.8524 16.0021 86.6102C15.537 85.368 15.4506 84.0171 15.7536 82.7264L21.4709 58.0607L2.35231 41.4512C1.34111 40.5842 0.609899 39.4397 0.250387 38.1611C-0.109126 36.8826 -0.080942 35.527 0.331405 34.2644C0.743751 33.0017 1.5219 31.8882 2.56828 31.0634C3.61466 30.2387 4.88268 29.7394 6.21333 29.6283L31.4138 27.4583L41.2507 4.13257C41.7644 2.90863 42.6309 1.86314 43.7411 1.12777C44.8512 0.392392 46.1554 0 47.4894 0C48.8234 0 50.1276 0.392392 51.2378 1.12777C52.3479 1.86314 53.2144 2.90863 53.7281 4.13257L63.5947 27.4583L88.7867 29.6283C90.1173 29.7394 91.3853 30.2387 92.4317 31.0634C93.4781 31.8882 94.2562 33.0017 94.6686 34.2644C95.0809 35.527 95.1091 36.8826 94.7496 38.1611C94.3901 39.4397 93.6589 40.5842 92.6477 41.4512H92.6265Z"
+            fill="#C2A48F" />
+        </svg>
+        <svg width="94" height="91" viewBox="0 0 94 91" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M0.33514 34.2504C0.741628 32.9922 1.5077 31.8819 2.53796 31.0578C3.56821 30.2336 4.81712 29.7321 6.12914 29.6156L31.0463 27.4583L40.8134 4.13257C41.3219 2.90863 42.1797 1.86314 43.2786 1.12777C44.3776 0.392392 45.6686 0 46.9892 0C48.3098 0 49.6008 0.392392 50.6998 1.12777C51.7987 1.86314 52.6565 2.90863 53.165 4.13257L62.9028 27.4583L87.8493 29.6283C89.1665 29.7394 90.4218 30.2387 91.4576 31.0634C92.4934 31.8882 93.2637 33.0017 93.6719 34.2644C94.0801 35.527 94.108 36.8826 93.7521 38.1611C93.3962 39.4397 92.6724 40.5842 91.6714 41.4512L72.7455 58.0607L78.4178 82.7264C78.7177 84.0171 78.6321 85.368 78.1717 86.6102C77.7113 87.8524 76.8965 88.9307 75.8292 89.7104C74.7618 90.49 73.4893 90.9364 72.1708 90.9937C70.8522 91.051 69.5461 90.7167 68.4157 90.0325L47.0186 76.9708L25.5753 90.0325C24.4449 90.7167 23.1388 91.051 21.8202 90.9937C20.5017 90.9364 19.2292 90.49 18.1618 89.7104C17.0945 88.9307 16.2797 87.8524 15.8193 86.6102C15.3589 85.368 15.2733 84.0171 15.5732 82.7264L21.2414 58.0354L2.31961 41.4512C1.31873 40.5812 0.596319 39.4334 0.243222 38.1522C-0.109875 36.8709 -0.0778936 35.5135 0.33514 34.2504ZM6.72071 36.3572L25.6425 52.9414C26.5634 53.7459 27.2484 54.7873 27.624 55.9536C27.9995 57.1199 28.0513 58.367 27.7738 59.5607L22.0889 84.2685L43.5153 71.2067C44.5607 70.5674 45.7611 70.2292 46.985 70.2292C48.209 70.2292 49.4093 70.5674 50.4547 71.2067L71.8518 84.2685L66.2047 59.5776C65.9271 58.3839 65.9789 57.1368 66.3544 55.9705C66.73 54.8041 67.4151 53.7627 68.336 52.9582L87.2661 36.3824C87.2676 36.3698 87.2676 36.3571 87.2661 36.3445L62.328 34.1788C61.1105 34.071 59.9453 33.6314 58.9583 32.9075C57.9712 32.1835 57.1997 31.2026 56.727 30.0707L46.9892 6.77441L37.2556 30.0707C36.7829 31.2026 36.0114 32.1835 35.0244 32.9075C34.0373 33.6314 32.8722 34.071 31.6546 34.1788L6.71231 36.3445V36.374L6.72071 36.3572Z"
+            fill="#5E4030" />
+        </svg>
+
+      </div>
+      <h2>Caractéristiques</h2>
+
+
+      <div class="colonne">
+        <div class="text colonne1">Date de parution<br>Editeur<br>Collection<br>Nombre de pages
+        </div>
+        <div class="text2">04/01/2024<br>
+          <a href="https://www.fnac.com/e34811/Gallimard">Gallimard</a><br>
+          <a href="https://www.fnac.com/c35104/Blanche">Blanche</a>
+          <br>128
+        </div>
+      </div>
+
+
+
+      <h2 class="resume">Résumé</h2>
+      <p>"Les enfants, les bébés, ils les appellent les “petitous”. Et c'est vrai qu'ils sont des petits touts.
+        Qu'ils
+        sont
+        un peu de leur mère, un peu de leur père, un peu des grands-parents, un peu de ceux qui sont morts, il y a
+        si
+        longtemps. Tout ce qu'ils leur ont transmis, caché, inventé. Tout. C'est pas toujours facile d'être un petit
+        tout,
+        d'avoir en soi autant d'histoires, autant de gens, de réussir à les faire taire pour inventer encore une
+        petite
+        chose à soi." Dans une ferme, l'histoire se reproduit de génération en génération : on s'occupe des bêtes,
+        on
+        vit
+        avec, celles qui sont dans l'étable et celles qui ruminent dans les têtes. Peintes sur le vif, à petites
+        touches,
+        les vies se dupliquent en dégradé face aux bêtes qui ont tout un paysage à pâturer. Marion Fayolle crée un
+        monde
+        saisissant dont la poésie brutale révèle ce qui s'imprime par les failles, par les blessures familiales,
+        comme
+        dans
+        les creux des gravures en taille-douce.
+      </p>
+
+      <h1>
+        <div class="avis-titre">Avis & notes</div>
+      </h1>
+      <div class="evaluation-globale">
+        <img class="evaluation" src="img/Group 23.png" alt="">
+        <div class="note-content2">
+          <div class="note2">4,1 </div>
+          <div class="small-note2">sur 5</div>
+        </div>
+        </p>
+        <p class="nombre-note2">325 notes</p>
+      </div>
+
+      <div class="clique-all">
+
+
+        <div class="clique-note">Cliquez pour noter:</div>
+
+        <div class="etoile-bas">
+          <select class="star-rating" aria-label="Note utilisateur">
             <option value="">Select a rating</option>
             <option value="5">Excellent</option>
             <option value="4">Very Good</option>
             <option value="3">Average</option>
             <option value="2">Poor</option>
             <option value="1">Terrible</option>
-        </select>
-    -->
+          </select>
+        </div>
+
+      </div>
+      <div class="commentaire-domin">
+
+        <div class="pseudo-content">
+          <div class="pseudo">@dominique_desaroi</div>
+          <div class="suivre">Suivre</div>
+        </div>
+
+        <h2>
+          <div class="comment-title">Un magnifique 1er roman !</div>
+        </h2>
+        <p> M.F y transpose toute la fantaisy de ces dessins.L'écriture est bel,les mot sont délicat.Le paysage ici est
+          plus qu'1 décore.La natur est 1 personnage à part entière, bienveillante ou parfois ingrasse. 1 beau hommage a
+          sa famille ardécquoise.Beaucoup d'amour se dégage de se texte à la fois doux,rugueux et poétike </p>
+      </div>
+
+      <div class="commentaire-framboiz">
+
+        <div class="pseudo-content">
+          <div class="pseudo">@framboize12</div>
+          <div class="suivis">Suivis</div>
+        </div>
+
+
+        <h2>
+          <div class="comment-title">Petit roman du territoire</div>
+        </h2>
+        <p>Un roman qui raconte la vie à la campagne, la cohabitation heureuse avec les animaux, l'étable se trouvant
+          située
+          entre la maison des jeunes et celle des aînés avec un glissement progressif de l'une vers l'autre. Une
+          continuité
+          générationelle sous le même toit où chacun a le souci de l'autre. Une vie pleine de labeur racontée avec
+          poésie
+          et
+          délicatesse. Un vrai plaisir de lecture !</p>
+      </div>
+      <div class="write-comment-all">
+        <img src="img/jam_write.png" alt="">
+        <p>
+        <div class="write-comment">Écrire un commentaire <div class="lireplus">Lire plus</div>
+        </div>
+        </p>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="navig-element"> <img src="img/Vector.png" alt=""></div>
+      <div class="navig-element"><img src="img/Vector-2.png" alt=""></div>
+      <div class="navig-element"><img src="img/Group 1.png" alt=""></div>
+      <div class="navig-element"><img src="img/🦆 icon _User Circle icon_.png" alt=""></div>
+
+    </div>
+
+    <div class="fleche-haut"><img src="img/fluent_ios-arrow-24-filled-2.png" alt=""></div>
+
+
+
     <!-- 💡 Script pour gérer le rating d'un livre -->
     <script src="scripts/star-rating.min.js"></script>
     <script>
       var stars = new StarRating(".star-rating", {
-        tooltip: "Choisissez votre note",
+        tooltip: "",
       });
     </script>
-  </body>
+  </div>
+
+
+
+
+</body>
+
 </html>
