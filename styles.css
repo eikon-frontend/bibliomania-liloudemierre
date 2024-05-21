@@ -2,7 +2,7 @@
 :root {
   --gl-star-empty: url(../img/star-empty.svg);
   --gl-star-full: url(../img/star-full.svg);
-  --gl-star-size: 24px;
+  --gl-star-size: 40px;
   --gl-tooltip-border-radius: 4px;
   --gl-tooltip-font-size: 0.875rem;
   --gl-tooltip-font-weight: 400;
@@ -13,3 +13,320 @@
 }
 
 /* 🦊 Vos styles ici */
+body {
+  background-color: #ebe7d6;
+  margin: 0px;
+  font-family: "Fredoka", sans-serif;
+
+
+
+}
+
+h1 {
+  color: #5a4132;
+
+}
+
+p {
+  color: #5a4132;
+}
+
+h2 {
+  color: #5a4132;
+  font-weight: 450;
+}
+
+h3 {
+  color: #5a4132;
+  font-weight: 350;
+  font-size: 15px;
+  margin-top: -90px;
+  margin-left: 20px;
+
+}
+
+.content {
+  width: 430px;
+  height: 1900px;
+  background-color: #fefcf1;
+  border-radius: 25px 25px 0px 0px;
+  margin-top: 300px;
+
+
+}
+
+.livre {
+  text-align: center;
+  margin-top: 30px;
+
+}
+
+.etoile {
+  width: 150px;
+  display: flex;
+  margin-left: 17px;
+  margin-top: -30px;
+
+}
+
+
+
+
+.bloc-livre {
+  transform: translateY(-290px);
+}
+
+.plus {
+  text-align: end;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+.footer {
+  background-color: #b8a18e;
+  border-radius: 45px 45px 0px 0px;
+  height: 70px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+
+.navig-element {
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 15px;
+}
+
+.note {
+  font-size: 30px;
+  color: #5a4132;
+  margin-left: 315px;
+  font-weight: 500;
+}
+
+.note-content {
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  justify-content: space-between;
+}
+
+.nombre-note {
+  display: flex;
+  justify-content: end;
+  font-weight: 350;
+  margin-top: -15px;
+  color: #a395888e;
+}
+
+.small-note {
+  color: #5a4132;
+  font-weight: 400;
+}
+
+.titre-bas {
+  margin-right: 155px;
+  margin-top: -300px;
+
+}
+
+.all {
+  padding: 18px;
+}
+
+.fleche-gauche {
+  margin-top: 35px;
+  margin-left: 20px;
+}
+
+.titre-haut {
+  margin-top: -42px;
+  margin-bottom: 40px;
+  font-weight: 600;
+}
+
+.marion {
+  font-weight: 300;
+}
+
+
+
+
+
+
+
+.note-content2 {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  justify-content: space-between;
+  margin-top: -70px;
+}
+
+.note2 {
+  font-size: 30px;
+  color: #5a4132;
+  font-weight: 500;
+
+}
+
+.nombre-note2 {
+  display: flex;
+  justify-content: start;
+  font-weight: 350;
+  margin-top: -15px;
+  color: #a395888e;
+}
+
+.small-note2 {
+  color: #5a4132;
+  font-weight: 400;
+  margin-right: 318px;
+  margin-top: 15px;
+}
+
+
+.avis-titre {
+  text-align: start;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.evaluation {
+  margin-left: 200px;
+}
+
+.evalutation-globale {
+  display: flex;
+
+}
+
+
+
+
+.colonne {
+  column-count: 2;
+  -moz-column-count: 2;
+  -webkit-column-count: 2;
+  column-gap: 39px;
+  -moz-column-gap: 39px;
+  -webkit-column-gap: 39px;
+  color: #5a4132
+}
+
+.text2 {
+  color: #5E4030;
+  text-align: justify;
+  font-family: Fredoka;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 166.986%;
+}
+
+.colonne1 {
+  color: #5E4030;
+  text-align: justify;
+  font-family: Fredoka;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 166.986%;
+}
+
+a {
+  color: #5a4132;
+}
+
+.resume {
+  text-align: start;
+}
+
+.commentaire-domin {
+  background-color: #ebe7d6;
+  border-radius: 22px;
+  padding: 15px;
+}
+
+.commentaire-framboiz {
+  background-color: #ebe7d6;
+  border-radius: 22px;
+  padding: 15px;
+  margin-top: 25px;
+}
+
+.pseudo {
+  color: #9c8d7e;
+  font-weight: 200;
+}
+
+.suivre {
+  color: #6f919a;
+  font-weight: 400;
+
+}
+
+.pseudo-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.suivis {
+  color: #9c8d7e;
+  font-weight: 400;
+}
+
+.comment-title {
+  text-align: start;
+}
+
+.write-comment {
+  color: #6f919a;
+  margin-top: 5px;
+  display: flex;
+}
+
+.lireplus {
+  margin-left: 135px;
+}
+
+
+.write-comment-all {
+  display: flex;
+  margin-top: 30px;
+}
+
+.fleche-haut {
+  display: flex;
+  justify-content: center;
+}
+
+.clique-note {
+  color: #b8a18e;
+  font-weight: 400;
+  padding-top: 10px;
+
+}
+
+.etoile-bas {
+
+  display: flex;
+}
+
+.clique-all {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  margin-top: 40px;
+}
+
+.plus {}
